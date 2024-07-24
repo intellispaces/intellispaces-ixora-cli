@@ -21,7 +21,7 @@ public class PrintStreamBasedConsoleTest {
 
   @BeforeEach
   public void init() {
-    IntellispacesFramework.loadModule(CliConfiguration.class).start();
+    IntellispacesFramework.loadModule(CliConfiguration.class);
   }
 
   @AfterEach
