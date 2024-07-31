@@ -1,11 +1,11 @@
-package tech.mindstructs.cli;
+package tech.intellispaces.ixora.cli;
 
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import tech.intellispaces.framework.core.IntellispacesFramework;
-import tech.intellispaces.framework.core.annotation.Preprocessing;
-import tech.intellispaces.framework.core.system.Modules;
+import tech.intellispaces.core.IntellispacesFramework;
+import tech.intellispaces.core.annotation.Preprocessing;
+import tech.intellispaces.core.system.Modules;
 
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
