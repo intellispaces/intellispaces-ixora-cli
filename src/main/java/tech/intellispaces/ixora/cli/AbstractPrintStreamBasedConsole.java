@@ -38,7 +38,7 @@ public abstract class AbstractPrintStreamBasedConsole implements MovableConsoleH
   @Mover
   @Override
   public Void println(int number) {
-    ps.print(number);
+    ps.println(number);
     return null;
   }
 }
