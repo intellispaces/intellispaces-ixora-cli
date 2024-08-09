@@ -26,7 +26,7 @@ public class PrintStreamBasedConsoleTest {
 
   @AfterEach
   public void deinit() {
-    Modules.activeModule().stop();
+    Modules.currentModule().stop();
   }
 
   @Test
@@ -34,11 +34,11 @@ public class PrintStreamBasedConsoleTest {
     // Given
     var os = new ByteArrayOutputStream();
     var ps = new PrintStream(os, true, StandardCharsets.UTF_8);
-    var handle = new PrintStreamBasedConsole(ps);
+    var console = new PrintStreamBasedConsole(ps);
 
     // When
-    handle.println("abc");
-    handle.print("def");
+    console.println("abc");
+    console.print("def");
 
     // Then
     String output = os.toString(StandardCharsets.UTF_8);
