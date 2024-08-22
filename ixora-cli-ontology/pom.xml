@@ -3,19 +3,13 @@
 
     <parent>
         <groupId>intellispaces</groupId>
-        <artifactId>intellispaces-parent-pom</artifactId>
+        <artifactId>ixora-cli-parent</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <groupId>intellispaces</groupId>
-    <artifactId>ixora-cli-parent</artifactId>
-    <packaging>pom</packaging>
-
-    <modules>
-        <module>ixora-cli-ontology</module>
-        <module>ixora-cli</module>
-    </modules>
-
+    <artifactId>ixora-cli-ontology</artifactId>
+    <packaging>jar</packaging>
+	
     <build>
         <plugins>
             <plugin>
@@ -26,18 +20,14 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-jar-plugin</artifactId>
             </plugin>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-surefire-plugin</artifactId>
-            </plugin>
         </plugins>
     </build>
 
     <dependencies>
-        <!-- Intellispaces -->
+        <!-- Ixora -->
         <dependency>
             <groupId>intellispaces</groupId>
-            <artifactId>intellispaces-core</artifactId>
+            <artifactId>ixora-core-ontology</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
     </dependencies>
