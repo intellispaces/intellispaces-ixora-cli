@@ -1,8 +1,8 @@
-package tech.intellispaces.ixora.cli;
+package intellispaces.ixora.cli;
 
 import intellispaces.ixora.cli.MovableConsoleHandle;
-import tech.intellispaces.core.annotation.MovableObjectHandle;
-import tech.intellispaces.core.annotation.Mover;
+import intellispaces.core.annotation.MovableObjectHandle;
+import intellispaces.core.annotation.Mover;
 
 import java.io.PrintStream;
 

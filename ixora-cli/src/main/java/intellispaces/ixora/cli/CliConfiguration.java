@@ -1,8 +1,8 @@
-package tech.intellispaces.ixora.cli;
+package intellispaces.ixora.cli;
 
 import intellispaces.ixora.cli.MovableConsoleHandle;
-import tech.intellispaces.core.annotation.Configuration;
-import tech.intellispaces.core.annotation.Projection;
+import intellispaces.core.annotation.Configuration;
+import intellispaces.core.annotation.Projection;
 
 @Configuration
 public class CliConfiguration {
