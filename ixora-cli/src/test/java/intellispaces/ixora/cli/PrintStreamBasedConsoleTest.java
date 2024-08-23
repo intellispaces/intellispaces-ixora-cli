@@ -1,11 +1,11 @@
 package intellispaces.ixora.cli;
 
-import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
 import intellispaces.core.IntellispacesFramework;
 import intellispaces.core.annotation.Preprocessing;
 import intellispaces.core.system.Modules;
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
@@ -30,7 +30,7 @@ public class PrintStreamBasedConsoleTest {
   }
 
   @Test
-  public void testPrintStreamBasedConsoleHandle() {
+  public void testPrintStreamBasedConsole() {
     // Given
     var os = new ByteArrayOutputStream();
     var ps = new PrintStream(os, true, StandardCharsets.UTF_8);
