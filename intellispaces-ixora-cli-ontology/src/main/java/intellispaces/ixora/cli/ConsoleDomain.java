@@ -1,9 +1,9 @@
 package intellispaces.ixora.cli;
 
-import intellispaces.core.annotation.Domain;
-import intellispaces.core.annotation.Transition;
-import intellispaces.core.traverse.TraverseTypes;
-import intellispaces.ixora.basic.PointDomain;
+import intellispaces.framework.core.annotation.Domain;
+import intellispaces.framework.core.annotation.Transition;
+import intellispaces.framework.core.traverse.TraverseTypes;
+import intellispaces.ixora.base.PointDomain;
 
 /**
  * Console is a simple text in/out system port.

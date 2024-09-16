@@ -2,18 +2,18 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>intellispaces</groupId>
+        <groupId>intellispaces-parent</groupId>
         <artifactId>intellispaces-parent-pom</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <groupId>intellispaces</groupId>
-    <artifactId>ixora-cli-parent</artifactId>
+    <groupId>intellispaces-ixora</groupId>
+    <artifactId>intellispaces-ixora-cli-parent</artifactId>
     <packaging>pom</packaging>
 
     <modules>
-        <module>ixora-cli-ontology</module>
-        <module>ixora-cli</module>
+        <module>intellispaces-ixora-cli-ontology</module>
+        <module>intellispaces-ixora-cli</module>
     </modules>
 
     <build>
@@ -36,8 +36,8 @@
     <dependencies>
         <!-- Intellispaces -->
         <dependency>
-            <groupId>intellispaces</groupId>
-            <artifactId>intellispaces-core</artifactId>
+            <groupId>intellispaces-framework</groupId>
+            <artifactId>intellispaces-framework-core</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
     </dependencies>

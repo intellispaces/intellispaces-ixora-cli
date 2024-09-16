@@ -1,8 +1,8 @@
 package intellispaces.ixora.cli;
 
-import intellispaces.core.IntellispacesFramework;
-import intellispaces.core.annotation.Preprocessing;
-import intellispaces.core.system.Modules;
+import intellispaces.framework.core.IntellispacesFramework;
+import intellispaces.framework.core.annotation.Preprocessing;
+import intellispaces.framework.core.system.Modules;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

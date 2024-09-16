@@ -1,7 +1,7 @@
 package intellispaces.ixora.cli;
 
-import intellispaces.core.annotation.Mover;
-import intellispaces.core.annotation.ObjectHandle;
+import intellispaces.framework.core.annotation.Mover;
+import intellispaces.framework.core.annotation.ObjectHandle;
 
 import java.io.PrintStream;
 

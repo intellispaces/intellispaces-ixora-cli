@@ -2,12 +2,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>intellispaces</groupId>
-        <artifactId>ixora-cli-parent</artifactId>
+        <groupId>intellispaces-ixora</groupId>
+        <artifactId>intellispaces-ixora-cli-parent</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>ixora-cli</artifactId>
+    <artifactId>intellispaces-ixora-cli</artifactId>
     <packaging>jar</packaging>
 	
     <build>
@@ -25,30 +25,28 @@
 
     <dependencies>
         <dependency>
-            <groupId>intellispaces</groupId>
-            <artifactId>intellispaces-commons</artifactId>
+            <groupId>intellispaces-common</groupId>
+            <artifactId>intellispaces-base</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
         <dependency>
-            <groupId>intellispaces</groupId>
-            <artifactId>intellispaces-actions</artifactId>
+            <groupId>intellispaces-common</groupId>
+            <artifactId>intellispaces-action</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
         <dependency>
-            <groupId>intellispaces</groupId>
-            <artifactId>intellispaces-actions-common</artifactId>
+            <groupId>intellispaces-common</groupId>
+            <artifactId>intellispaces-base-action</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
         <dependency>
-            <groupId>intellispaces</groupId>
-            <artifactId>intellispaces-javastatements-model</artifactId>
+            <groupId>intellispaces-common</groupId>
+            <artifactId>intellispaces-javastatement-model</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
-
-        <!-- Ixora -->
         <dependency>
-            <groupId>intellispaces</groupId>
-            <artifactId>ixora-cli-ontology</artifactId>
+            <groupId>intellispaces-ixora</groupId>
+            <artifactId>intellispaces-ixora-cli-ontology</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
 

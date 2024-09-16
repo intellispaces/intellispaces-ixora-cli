@@ -1,7 +1,7 @@
 package intellispaces.ixora.cli;
 
-import intellispaces.core.annotation.Configuration;
-import intellispaces.core.annotation.Projection;
+import intellispaces.framework.core.annotation.Configuration;
+import intellispaces.framework.core.annotation.Projection;
 
 @Configuration
 public class CliConfiguration {
