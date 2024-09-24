@@ -15,29 +15,29 @@ public abstract class AbstractPrintStreamBasedConsole implements MovableConsole 
 
   @Mover
   @Override
-  public Void print(String string) {
+  public Console print(String string) {
     ps.print(string);
-    return null;
+    return this;
   }
 
   @Mover
   @Override
-  public Void print(int number) {
+  public Console print(int number) {
     ps.print(number);
-    return null;
+    return this;
   }
 
   @Mover
   @Override
-  public Void println(String string) {
+  public Console println(String string) {
     ps.println(string);
-    return null;
+    return this;
   }
 
   @Mover
   @Override
-  public Void println(int number) {
+  public Console println(int number) {
     ps.println(number);
-    return null;
+    return this;
   }
 }
