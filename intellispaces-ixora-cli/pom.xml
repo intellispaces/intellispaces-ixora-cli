@@ -25,6 +25,11 @@
 
     <dependencies>
         <dependency>
+            <groupId>intellispaces-framework</groupId>
+            <artifactId>intellispaces-framework-core</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+        <dependency>
             <groupId>intellispaces-common</groupId>
             <artifactId>intellispaces-base</artifactId>
             <version>0.0.1-SNAPSHOT</version>
