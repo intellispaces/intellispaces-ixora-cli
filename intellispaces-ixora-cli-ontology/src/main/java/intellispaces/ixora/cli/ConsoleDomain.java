@@ -2,7 +2,7 @@ package intellispaces.ixora.cli;
 
 import intellispaces.framework.core.annotation.Channel;
 import intellispaces.framework.core.annotation.Domain;
-import intellispaces.framework.core.traverseplan.TraverseTypes;
+import intellispaces.framework.core.traverse.TraverseTypes;
 import intellispaces.ixora.base.PointDomain;
 
 /**
