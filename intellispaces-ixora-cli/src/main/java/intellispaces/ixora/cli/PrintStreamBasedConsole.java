@@ -6,11 +6,11 @@ import intellispaces.framework.core.annotation.ObjectHandle;
 import java.io.PrintStream;
 import java.util.Objects;
 
-@ObjectHandle(value = ConsoleDomain.class, name = "PrintStreamBasedConsole")
-public abstract class AbstractPrintStreamBasedConsole implements MovableConsole {
+@ObjectHandle(ConsoleDomain.class)
+public abstract class PrintStreamBasedConsole implements MovableConsole {
   private final PrintStream ps;
 
-  public AbstractPrintStreamBasedConsole(PrintStream ps) {
+  public PrintStreamBasedConsole(PrintStream ps) {
     this.ps = ps;
   }
 

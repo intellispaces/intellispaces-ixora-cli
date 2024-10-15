@@ -11,6 +11,6 @@ public class CliConfiguration {
    */
   @Projection
   public MovableConsole console() {
-    return new PrintStreamBasedConsole(System.out);
+    return Consoles.get(System.out);
   }
 }
