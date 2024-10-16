@@ -20,7 +20,7 @@ public abstract class PrintStreamBasedConsole implements MovableConsole {
 
   @Mover
   @Override
-  public Console print(String string) {
+  public MovableConsole print(String string) {
     Objects.requireNonNull(string);
     ps.print(string);
     return this;
@@ -28,14 +28,14 @@ public abstract class PrintStreamBasedConsole implements MovableConsole {
 
   @Mover
   @Override
-  public Console print(int number) {
+  public MovableConsole print(int number) {
     ps.print(number);
     return this;
   }
 
   @Mover
   @Override
-  public Console println(String string) {
+  public MovableConsole println(String string) {
     Objects.requireNonNull(string);
     ps.println(string);
     return this;
@@ -43,7 +43,7 @@ public abstract class PrintStreamBasedConsole implements MovableConsole {
 
   @Mover
   @Override
-  public Console println(int number) {
+  public MovableConsole println(int number) {
     ps.println(number);
     return this;
   }
