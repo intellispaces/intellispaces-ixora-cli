@@ -3,13 +3,12 @@ package intellispaces.ixora.cli;
 import intellispaces.framework.core.annotation.Channel;
 import intellispaces.framework.core.annotation.Domain;
 import intellispaces.framework.core.traverse.TraverseTypes;
-import intellispaces.ixora.space.PointDomain;
 
 /**
  * Console is a simple text in/out system port.
  */
 @Domain("ac5ad94b-0d0b-4bc1-b0af-a32c65a28793")
-public interface ConsoleDomain extends PointDomain {
+public interface ConsoleDomain {
 
   @Channel(
       value = "e09d266d-9568-44fd-8ed2-cf27da326a37",
