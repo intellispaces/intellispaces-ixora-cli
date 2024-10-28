@@ -1,8 +1,7 @@
 package intellispaces.ixora.cli;
 
-import intellispaces.framework.core.IntellispacesFramework;
-import intellispaces.framework.core.annotation.Preprocessing;
-import intellispaces.framework.core.system.Modules;
+import intellispaces.jaquarius.annotation.Preprocessing;
+import intellispaces.jaquarius.system.Modules;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -21,7 +20,7 @@ public class PrintStreamBasedConsoleTest {
 
   @BeforeEach
   public void init() {
-    IntellispacesFramework.loadModule(CliConfiguration.class);
+    Modules.get(CliConfiguration.class).start();
   }
 
   @AfterEach

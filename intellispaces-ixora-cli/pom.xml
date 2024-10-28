@@ -25,8 +25,8 @@
 
     <dependencies>
         <dependency>
-            <groupId>intellispaces-framework</groupId>
-            <artifactId>intellispaces-framework-core</artifactId>
+            <groupId>intellispaces-jaquarius</groupId>
+            <artifactId>intellispaces-jaquarius-core</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
         <dependency>
