@@ -1,7 +1,7 @@
-package intellispaces.ixora.cli;
+package tech.intellispaces.ixora.cli;
 
-import intellispaces.jaquarius.annotation.Mover;
-import intellispaces.jaquarius.annotation.ObjectHandle;
+import tech.intellispaces.jaquarius.annotation.Mover;
+import tech.intellispaces.jaquarius.annotation.ObjectHandle;
 
 import java.io.PrintStream;
 import java.util.Objects;

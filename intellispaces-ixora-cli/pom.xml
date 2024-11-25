@@ -2,7 +2,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>intellispaces-ixora</groupId>
+        <groupId>tech.intellispaces.ixora</groupId>
         <artifactId>intellispaces-ixora-cli-parent</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
@@ -25,7 +25,7 @@
 
     <dependencies>
         <dependency>
-            <groupId>intellispaces-jaquarius</groupId>
+            <groupId>tech.intellispaces.jaquarius</groupId>
             <artifactId>intellispaces-jaquarius-core</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
@@ -45,12 +45,12 @@
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
         <dependency>
-            <groupId>intellispaces-common</groupId>
-            <artifactId>intellispaces-javastatement-model</artifactId>
+            <groupId>tech.intellispaces.common</groupId>
+            <artifactId>intellispaces-java-reflection-model</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
         <dependency>
-            <groupId>intellispaces-ixora</groupId>
+            <groupId>tech.intellispaces.ixora</groupId>
             <artifactId>intellispaces-ixora-cli-ontology</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>

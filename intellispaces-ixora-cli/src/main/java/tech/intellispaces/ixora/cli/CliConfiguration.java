@@ -1,7 +1,7 @@
-package intellispaces.ixora.cli;
+package tech.intellispaces.ixora.cli;
 
-import intellispaces.jaquarius.annotation.Configuration;
-import intellispaces.jaquarius.annotation.Projection;
+import tech.intellispaces.jaquarius.annotation.Configuration;
+import tech.intellispaces.jaquarius.annotation.Projection;
 
 @Configuration
 public class CliConfiguration {

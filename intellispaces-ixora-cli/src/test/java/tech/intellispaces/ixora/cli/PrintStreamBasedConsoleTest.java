@@ -1,7 +1,7 @@
-package intellispaces.ixora.cli;
+package tech.intellispaces.ixora.cli;
 
-import intellispaces.jaquarius.annotation.Preprocessing;
-import intellispaces.jaquarius.system.Modules;
+import tech.intellispaces.jaquarius.annotation.Preprocessing;
+import tech.intellispaces.jaquarius.system.Modules;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

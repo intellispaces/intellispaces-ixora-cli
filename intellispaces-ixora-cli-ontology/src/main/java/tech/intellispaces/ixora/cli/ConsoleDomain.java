@@ -1,8 +1,8 @@
-package intellispaces.ixora.cli;
+package tech.intellispaces.ixora.cli;
 
-import intellispaces.jaquarius.annotation.Channel;
-import intellispaces.jaquarius.annotation.Domain;
-import intellispaces.jaquarius.traverse.TraverseTypes;
+import tech.intellispaces.jaquarius.annotation.Channel;
+import tech.intellispaces.jaquarius.annotation.Domain;
+import tech.intellispaces.jaquarius.traverse.TraverseTypes;
 
 /**
  * Console is a simple text in/out system port.

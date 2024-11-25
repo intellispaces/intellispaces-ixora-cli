@@ -7,7 +7,7 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <groupId>intellispaces-ixora</groupId>
+    <groupId>tech.intellispaces.ixora</groupId>
     <artifactId>intellispaces-ixora-cli-parent</artifactId>
     <packaging>pom</packaging>
 
@@ -36,12 +36,12 @@
     <dependencies>
         <!-- Intellispaces -->
         <dependency>
-            <groupId>intellispaces-jaquarius</groupId>
+            <groupId>tech.intellispaces.jaquarius</groupId>
             <artifactId>intellispaces-jaquarius-core</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
         <dependency>
-            <groupId>intellispaces-jaquarius</groupId>
+            <groupId>tech.intellispaces.jaquarius</groupId>
             <artifactId>intellispaces-jaquarius-engine</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
