@@ -20,12 +20,12 @@ public class PrintStreamBasedConsoleTest {
 
   @BeforeEach
   public void init() {
-    Modules.get(CliConfiguration.class).start();
+    Modules.load(CliConfiguration.class).start();
   }
 
   @AfterEach
   public void destroy() {
-    Modules.current().stop();
+    Modules.unload();
   }
 
   @Test
