@@ -1,6 +1,5 @@
 package tech.intellispaces.ixora.cli;
 
-import tech.intellispaces.jaquarius.annotation.Preprocessing;
 import tech.intellispaces.jaquarius.system.Modules;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
@@ -15,7 +14,6 @@ import static org.assertj.core.api.Assertions.assertThat;
 /**
  * Tests fo {@link PrintStreamBasedConsole} class.
  */
-@Preprocessing(CliConfiguration.class)
 public class PrintStreamBasedConsoleTest {
 
   @BeforeEach
