@@ -1,4 +1,4 @@
-package tech.intellispaces.ixora.cli;
+package tech.intellispaces.jaquarius.ixora.cli;
 
 import java.io.PrintStream;
 

@@ -7,13 +7,12 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <groupId>tech.intellispaces.ixora</groupId>
-    <artifactId>intellispaces-ixora-cli-parent</artifactId>
+    <groupId>tech.intellispaces.jaquarius</groupId>
+    <artifactId>intellispaces-jaquarius-ixora-cli-parent</artifactId>
     <packaging>pom</packaging>
 
     <modules>
-        <module>intellispaces-ixora-cli-ontology</module>
-        <module>intellispaces-ixora-cli</module>
+        <module>intellispaces-jaquarius-ixora-cli-kit</module>
     </modules>
 
     <build>
@@ -32,18 +31,4 @@
             </plugin>
         </plugins>
     </build>
-
-    <dependencies>
-        <!-- Intellispaces -->
-        <dependency>
-            <groupId>tech.intellispaces.jaquarius</groupId>
-            <artifactId>intellispaces-jaquarius-core</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-        </dependency>
-        <dependency>
-            <groupId>tech.intellispaces.jaquarius</groupId>
-            <artifactId>intellispaces-jaquarius-engine</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-        </dependency>
-    </dependencies>
 </project>

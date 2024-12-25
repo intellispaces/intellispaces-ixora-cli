@@ -1,4 +1,4 @@
-package tech.intellispaces.ixora.cli;
+package tech.intellispaces.jaquarius.ixora.cli;
 
 import tech.intellispaces.jaquarius.annotation.Mover;
 import tech.intellispaces.jaquarius.annotation.ObjectHandle;
